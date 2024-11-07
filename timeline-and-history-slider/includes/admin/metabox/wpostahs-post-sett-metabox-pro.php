@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
-<div class="pro-notice"><strong><?php esc_html_e('Utilize this ', 'timeline-and-history-slider'); ?><a href="<?php echo esc_url(WPOSTAHS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Premium Features (With Risk-Free 30 days money back guarantee)', 'timeline-and-history-slider'); ?></a> <?php esc_html_e('to get best of this plugin with Annual or Lifetime bundle deal.', 'timeline-and-history-slider') ?></strong></div>
+<div class="pro-notice"><strong><?php esc_html_e('Try This PRO Features with ', 'timeline-and-history-slider'); ?><a href="<?php echo esc_url(WPOSTAHS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Early Back Friday Deals ', 'timeline-and-history-slider'); ?></a> <?php esc_html_e('on lifetime plan. FLAT $100 USD OFF.', 'timeline-and-history-slider') ?></strong></div>
 
 <table class="form-table wpostahs-metabox-table">
 	<tbody>

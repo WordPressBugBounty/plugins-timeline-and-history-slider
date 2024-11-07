@@ -11,7 +11,7 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 ?>
 <div class="wrap">
-	<h2 style="font-size: 24px; text-align: center; margin-bottom:25px;"><span class="wpostahs-sf-blue">Timeline and History slider </span>Including in <span class="wpostahs-sf-blue">Essential Plugin Bundle</span></h2>
+	
 	<style>
 		/* Table CSS */
 		table, th, td {border: 1px solid #d1d1d1;}
@@ -37,6 +37,12 @@ if ( !defined( 'ABSPATH' ) ) {
 		.wpostahs-favourite-section span i{color: #50c621; font-weight: 600; vertical-align: middle;}
 		.wpostahs-favourite-section span img{display: inline-block; vertical-align: middle; max-width: 100%; height: auto;}
 	</style>
+
+	<div class="wpostahs-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPOSTAHS_PLUGIN_LINK_UPGRADE ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPOSTAHS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
+	<h2 style="font-size: 24px; text-align: center; margin-bottom:25px;"><span class="wpostahs-sf-blue">Timeline and History slider </span>Including in <span class="wpostahs-sf-blue">Essential Plugin Bundle</span></h2>
 
 	<div id="poststuff">
 		<div id="post-body" class="metabox-holder">
@@ -121,7 +127,7 @@ if ( !defined( 'ABSPATH' ) ) {
 					<div style="text-align: center;">
 						<img style="width: 100%; margin-bottom:30px;" src="<?php echo esc_url( WPOSTAHS_URL ); ?>assets/images/image-upgrade.png" alt="image-upgrade" title="image-upgrade" />
 						<div style="font-size: 14px; margin-bottom:10px;"><span class="wpostahs-sf-blue">Timeline Slider </span>Including in <span class="wpostahs-sf-blue">Essential Plugin Bundle</span></div>
-						<a href="<?php echo esc_url(WPOSTAHS_PLUGIN_LINK_UPGRADE); ?>" target="_blank" class="wpostahs-sf-btn wpostahs-sf-btn-orange"><span class="dashicons dashicons-cart"></span> View Bundle Deal</a>
+						<a href="<?php echo esc_url(WPOSTAHS_PLUGIN_LINK_UPGRADE); ?>" target="_blank" class="wpostahs-sf-btn wpostahs-sf-btn-orange"><span class="dashicons dashicons-cart"></span> Try Pro with Back Friday Deals</a>
 					</div>
 			</div>
 		</div>

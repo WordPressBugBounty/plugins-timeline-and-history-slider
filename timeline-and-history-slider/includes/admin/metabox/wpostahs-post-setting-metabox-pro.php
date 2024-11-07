@@ -10,7 +10,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 } ?>
 
-<div class="pro-notice"><strong><?php esc_html_e('Utilize this ', 'timeline-and-history-slider'); ?><a href="<?php echo esc_url(WPOSTAHS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Premium Features (With Risk-Free 30 days money back guarantee)', 'timeline-and-history-slider'); ?></a> <?php esc_html_e('to get best of this plugin with Annual or Lifetime bundle deal.', 'timeline-and-history-slider') ?></strong></div>
+<!-- <div class="pro-notice"><strong><?php //esc_html_e('Utilize this ', 'timeline-and-history-slider'); ?><a href="<?php //echo esc_url(WPOSTAHS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php //esc_html_e('Premium Features (With Risk-Free 30 days money back guarantee)', 'timeline-and-history-slider'); ?></a> <?php //esc_html_e('to get best of this plugin with Annual or Lifetime bundle deal.', 'timeline-and-history-slider') ?></strong></div> -->
+
+<div class="wpostahs-black-friday-banner-wrp">
+	<a href="<?php echo esc_url( WPOSTAHS_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPOSTAHS_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+</div>
 
 <table class="form-table wpostahs-metabox-table">
 	<tbody>

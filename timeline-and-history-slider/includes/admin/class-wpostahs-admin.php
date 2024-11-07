@@ -42,7 +42,7 @@ class Wpostahs_Admin {
 		add_submenu_page( 'edit.php?post_type='.WPOSTAHS_POST_TYPE, __( 'How it works, our plugins and offers', 'timeline-and-history-slider' ), __( 'How It Works', 'timeline-and-history-slider' ), 'manage_options', 'wpostahs-designs', array( $this, 'wpostahs_designs_page' ));
 
 		// Register plugin premium page
-		add_submenu_page( 'edit.php?post_type='.WPOSTAHS_POST_TYPE, __( 'Upgrade To Premium -  Timeline and History slider', 'timeline-and-history-slider' ), '<span style="color:#ff2700">'.__( 'Upgrade To Premium', 'timeline-and-history-slider' ).'</span>', 'manage_options', 'wpostahs-premium', array( $this, 'wpostahs_premium_page' ));
+		add_submenu_page( 'edit.php?post_type='.WPOSTAHS_POST_TYPE, __( 'Upgrade To Premium -  Timeline and History slider', 'timeline-and-history-slider' ), '<span style="color:#ff2700">'.__( 'Upgrade To PRO – Early Back Friday Deals', 'timeline-and-history-slider' ).'</span>', 'manage_options', 'wpostahs-premium', array( $this, 'wpostahs_premium_page' ));
 	}
 
 	/**
