@@ -6,7 +6,7 @@
  * Domain Path: /languages/
  * Description: Timeline Plugin for WordPress. Easy to add and display history OR timeline for your WordPress website. Also support WordPress POST post type. Also work with Gutenberg shortcode block. 
  * Author: WP OnlineSupport, Essential Plugin
- * Version: 2.4.1
+ * Version: 2.4.2
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/timeline-history-slider/
  *
  * @package WordPress
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined('WPOSTAHS_VERSION') ) {
-	define( 'WPOSTAHS_VERSION', '2.4.1' ); // Plugin version
+	define( 'WPOSTAHS_VERSION', '2.4.2' ); // Plugin version
 }
 
 if( ! defined( 'WPOSTAHS_DIR' ) ) {

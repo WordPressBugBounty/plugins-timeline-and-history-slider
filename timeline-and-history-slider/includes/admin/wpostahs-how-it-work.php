@@ -42,8 +42,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 									<tbody>
 										<tr>
 											<td>
-												<p><?php esc_html_e('Boost design and best solution for your website.', 'timeline-and-history-slider'); ?></p> <br/>
-												<a class="button button-primary button-orange" href="<?php echo esc_url(WPOSTAHS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'timeline-and-history-slider'); ?></a>
+												<p><?php esc_html_e('Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'timeline-and-history-slider'); ?></p> <br/>
+												<a class="button button-primary button-orange" href="<?php echo esc_url(WPOSTAHS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Upgrade To PRO', 'timeline-and-history-slider'); ?></a>
 											</td>
 										</tr>
 									</tbody>
@@ -177,7 +177,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 									<li><?php esc_html_e( '100% Multi language', 'timeline-and-history-slider' ); ?></li>
 								</ul>
 								<div class="upgrade-to-pro"><?php esc_html_e( 'Gain access to ', 'timeline-and-history-slider' ); ?><strong><?php esc_html_e('Timeline and History slider', 'timeline-and-history-slider'); ?></strong></div>
-								<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WPOSTAHS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'timeline-and-history-slider'); ?></a>
+								<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WPOSTAHS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Upgrade To PRO', 'timeline-and-history-slider'); ?></a>
 							</div><!-- .inside -->
 						</div><!-- #general -->
 					</div><!-- .meta-box-sortables -->

@@ -11,7 +11,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
-<div class="pro-notice"><strong><?php esc_html_e('Try This PRO Features with ', 'timeline-and-history-slider'); ?><a href="<?php echo esc_url(WPOSTAHS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Early Back Friday Deals ', 'timeline-and-history-slider'); ?></a> <?php esc_html_e('on lifetime plan. FLAT $100 USD OFF.', 'timeline-and-history-slider') ?></strong></div>
+<!-- <div class="pro-notice"><strong><?php //esc_html_e('Try This PRO Features with ', 'timeline-and-history-slider'); ?><a href="<?php //echo esc_url(WPOSTAHS_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php //esc_html_e('Early Back Friday Deals ', 'timeline-and-history-slider'); ?></a> <?php //esc_html_e('on lifetime plan. FLAT $100 USD OFF.', 'timeline-and-history-slider') ?></strong></div> -->
+
+<strong style="color:#2ECC71; font-weight: 700;"><?php echo sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'timeline-and-history-slider'), WPOSTAHS_PLUGIN_LINK_UNLOCK); ?></strong>
 
 <table class="form-table wpostahs-metabox-table">
 	<tbody>

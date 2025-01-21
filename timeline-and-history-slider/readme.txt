@@ -2,8 +2,8 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
 Tags: timeline slider, history slider, responsive timeline, company timeline, biography, history, history timeline, personal timeline, slick slider
 Requires at least: 4.0
-Tested up to: 6.6.2
-Stable tag: 2.4.1
+Tested up to: 6.7.1
+Stable tag: 2.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -115,6 +115,9 @@ Enter category id to display categories wise.
 3. Timeline and History Edit Page
 
 == Changelog ==
+
+= 2.4.2 (21, January 2025) =
+* [*] Check compatibility to WordPress version 6.7.1
 
 = 2.4.1 (07, Nov 2024) =
 * [*] Check compatibility with WordPress version 6.6.2
