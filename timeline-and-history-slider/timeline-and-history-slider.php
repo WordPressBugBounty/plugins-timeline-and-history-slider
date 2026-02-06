@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Timeline and History Slider
- * Plugin URI:https://www.essentialplugin.com/wordpress-plugin/timeline-history-slider/
+ * Plugin URI:https://essentialplugin.com/wordpress-plugin/timeline-history-slider/
  * Text Domain: timeline-and-history-slider
  * Domain Path: /languages/
  * Description: Timeline Plugin for WordPress. Easy to add and display history OR timeline for your WordPress website. Also support WordPress POST post type. Also work with Gutenberg shortcode block. 
  * Author: Essential Plugin
- * Version: 2.4.3
- * Author URI: https://www.essentialplugin.com
+ * Version: 2.4.5
+ * Author URI: https://essentialplugin.com
  *
  * @package Timeline and History Slider
  * @author Essential Plugin
@@ -17,32 +17,32 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-if( ! defined('WPOSTAHS_VERSION') ) {
-	define( 'WPOSTAHS_VERSION', '2.4.3' ); // Plugin version
+if ( ! defined('WPOSTAHS_VERSION') ) {
+	define( 'WPOSTAHS_VERSION', '2.4.5' ); // Plugin version
 }
 
-if( ! defined( 'WPOSTAHS_DIR' ) ) {
+if ( ! defined( 'WPOSTAHS_DIR' ) ) {
 	define( 'WPOSTAHS_DIR', dirname( __FILE__ ) ); // Plugin dir
 }
 
-if( ! defined( 'WPOSTAHS_URL' ) ) {
+if ( ! defined( 'WPOSTAHS_URL' ) ) {
 	define( 'WPOSTAHS_URL', plugin_dir_url( __FILE__ ) ); // Plugin url
 }
 
-if( ! defined( 'WPOSTAHS_POST_TYPE' ) ) {
+if ( ! defined( 'WPOSTAHS_POST_TYPE' ) ) {
 	define( 'WPOSTAHS_POST_TYPE', 'timeline_slider_post' ); // Plugin post type
 }
 
-if( ! defined( 'WPOSTAHS_PLUGIN_LINK_UNLOCK' ) ) {
-	define( 'WPOSTAHS_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Timeline&utm_campaign=Features-PRO' ); // Plugin link
+if ( ! defined( 'WPOSTAHS_PLUGIN_LINK_UNLOCK' ) ) {
+	define( 'WPOSTAHS_PLUGIN_LINK_UNLOCK', 'https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=Timeline&utm_campaign=Features-PRO' ); // Plugin link
 }
 
-if( ! defined( 'WPOSTAHS_PLUGIN_LINK_UPGRADE' ) ) {
-	define( 'WPOSTAHS_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Timeline&utm_campaign=Upgrade-PRO' ); // Plugin Check link
+if ( ! defined( 'WPOSTAHS_PLUGIN_LINK_UPGRADE' ) ) {
+	define( 'WPOSTAHS_PLUGIN_LINK_UPGRADE', 'https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=Timeline&utm_campaign=Upgrade-PRO' ); // Plugin Check link
 }
 
-if( ! defined( 'WPOSTAHS_SITE_LINK' ) ) {
-	define('WPOSTAHS_SITE_LINK','https://www.essentialplugin.com'); // Plugin link
+if ( ! defined( 'WPOSTAHS_SITE_LINK' ) ) {
+	define('WPOSTAHS_SITE_LINK','https://essentialplugin.com'); // Plugin link
 }
 
 /**
@@ -115,7 +115,7 @@ function wpostahs_install() {
 	flush_rewrite_rules();
 
 	// Deactivate free version
-	if( is_plugin_active('timeline-and-history-slider-pro/wp-history-and-timeline-slider.php') ) {
+	if ( is_plugin_active('timeline-and-history-slider-pro/wp-history-and-timeline-slider.php') ) {
 		add_action('update_option_active_plugins', 'wpostahs_deactivate_premium_version');
 	}
 }
@@ -148,21 +148,21 @@ function wpostahs_admin_notice() {
 	global $pagenow;
 
 	// If not plugin screen
-	if( 'plugins.php' != $pagenow ) {
+	if ( 'plugins.php' != $pagenow ) {
 		return;
 	}
 
 	// Check Lite Version
 	$dir = WP_PLUGIN_DIR . '/timeline-and-history-slider-pro/wp-history-and-timeline-slider.php';
 
-	if( ! file_exists( $dir ) ) {
+	if ( ! file_exists( $dir ) ) {
 		return;
 	}
 
 	$notice_link		= add_query_arg( array( 'message' => 'wpostahs-plugin-notice' ), admin_url( 'plugins.php' ));
 	$notice_transient	= get_transient( 'wpostahs_install_notice' );
 
-	if( $notice_transient == false && current_user_can( 'install_plugins' ) ) {
+	if ( $notice_transient == false && current_user_can( 'install_plugins' ) ) {
 		echo '<div class="updated notice" style="position:relative;">
 				<p>
 					<strong>'.sprintf( __('Thank you for activating %s', 'timeline-and-history-slider'), 'Timeline and History slider').'</strong>.<br/>

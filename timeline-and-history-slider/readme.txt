@@ -2,8 +2,8 @@
 Contributors: essentialplugin
 Tags: timeline slider, responsive timeline, company timeline, history timeline, personal timeline
 Requires at least: 4.0
-Tested up to: 6.8.1
-Stable tag: 2.4.3
+Tested up to: 6.8.3
+Stable tag: 2.4.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -115,6 +115,12 @@ Enter category id to display categories wise.
 3. Timeline and History Edit Page
 
 == Changelog ==
+
+= 2.4.5 (17, Nov 2025) =
+* [*] Fixed code conflict issue affecting widget saving.
+
+= 2.4.4 (12, Nov 2025) =
+* [*] Check compatibility with WordPress version 6.8.3
 
 = 2.4.3 (15, May 2025) =
 * [*] Check compatibility with WordPress version 6.8.1
